@@ -115,7 +115,7 @@ nav {
     ,url(../br/cannava.jpg);
     padding: 5px;
     width: 330px;
-    height: ;
+   
     border-radius: 20px;
     
 }
@@ -218,7 +218,7 @@ footer .newsletter div{
     text-decoration: none;
 }
 
-PRODUCTOS--!>
+
 .accede-socio div{
     border-radius: 3px;
     justify-content: center;
@@ -233,9 +233,7 @@ PRODUCTOS--!>
     padding-top: 80px;
     margin-bottom: 10px;
 }
-.form-socio .row-socio{
 
-}
 
 @media (min-width: 320px) and (max-width:600px) {
 
@@ -292,5 +290,3 @@ PRODUCTOS--!>
     }
 
 }
-
-    

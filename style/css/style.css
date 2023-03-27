@@ -1,0 +1,500 @@
+/*
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: auto;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(93, 165, 75);
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+  max-width: 10000px;
+}
+
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid #2e6329;
+  position: fixed;
+  z-index: 999;
+  border-radius: 80%;
+  bottom: 40px;
+  right: 35px;
+  padding: 10px;
+  transition: ease 0.3s;
+}
+.container-boton .botonWp {
+  width: 60px;
+  transition: ease 1s;
+}
+
+.container-boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+nav {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+nav .navbar-toggler {
+  border: 2px solid rgb(251, 252, 251);
+}
+nav .nav-item .nav-link {
+  padding: 10px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+nav .nav-item .nav-link:hover {
+  color: #03494e;
+}
+
+#carouselExampleCaptions {
+  font-family: "Itim", cursive;
+}
+#carouselExampleCaptions .w-100 {
+  height: 600px;
+}
+#carouselExampleCaptions #carousel-back {
+  position: relative;
+}
+#carouselExampleCaptions #carousel-back::before {
+  content: "";
+  background-color: rgba(18, 58, 30, 0.5);
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+#carouselExampleCaptions .carousel-caption {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#carouselExampleCaptions .carousel-caption #titulo-carousel {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-size: 2.5em;
+}
+#carouselExampleCaptions .carousel-caption .parrafo-carousel {
+  font-size: 2em;
+}
+#carouselExampleCaptions .carousel-caption p {
+  font-size: 2em;
+}
+
+.buton-contact {
+  transition: ease 0.3s;
+}
+
+.buton-contact .button {
+  transition: ease 1s;
+}
+
+.container-servicios {
+  margin: 0 auto;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 30%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  background-image: url(../../../../cannava.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#h1-servicios {
+  font-family: "Mochiy Pop One", sans-serif;
+  margin-top: 0.5px;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.card-backgraund .card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 9px;
+}
+
+.lista-boton {
+  padding: 5px;
+}
+
+#container-card-serv {
+  margin: 0%;
+  content: cover;
+}
+
+#card-serv {
+  color: #03494e;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.tarjeta {
+  max-width: 65vw;
+  margin: 48px auto;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.contenido {
+  display: flex;
+}
+
+@media (max-width: 1024px) {
+  .contenido {
+    flex-direction: column;
+  }
+  .tarjeta {
+    max-width: 95vw;
+  }
+}
+.ladoIzq, .ladoDer {
+  width: 100%;
+}
+
+.ladoDer img {
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+
+.ladoIzq {
+  background: black;
+  color: white;
+  padding: 48px;
+}
+
+.btn {
+  display: inline-block;
+  background: white;
+  margin-right: 4px;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+a.btn:first-of-type {
+  background: #7cd1a7;
+  color: white;
+}
+
+a.btn:hover {
+  opacity: 0.8;
+}
+
+.col-md-4 {
+  width: 30%;
+}
+
+.card-body {
+  color: #03494e;
+  width: 100%;
+  height: 100%;
+}
+
+.list-group-item {
+  background-color: #2e518b;
+}
+
+.nuestros-servicios {
+  font-family: "Mochiy Pop One", sans-serif;
+  position: center;
+}
+
+.col-md-3 {
+  color: antiquewhite;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 10%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.85) 70%, rgba(0, 0, 0, 0.85) 90%, rgba(0, 0, 0, 0.85) 100%), url(../../../../cannava.jpg);
+  width: 330px;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 0.5px;
+  right: 30%;
+  bottom: 1.25rem;
+  left: 30%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+  .col-md-3 {
+    width: auto;
+    margin: 0;
+  }
+}
+#form-socio {
+  background-image: url(../../../../cannava.jpg);
+  background-size: cover;
+  min-height: 630px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.button {
+  background-color: #2e518b;
+  color: white;
+  border: solid #2e518b;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.buton-contact .button {
+  background-color: #caee01;
+  color: rgba(0, 0, 0, 0.9);
+  border: 2px solid #e7eb10;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.lista-boton {
+  margin-top: 5px;
+}
+
+.lista-boton a {
+  background-color: #211686;
+  color: white;
+  border: 1px solid #362e80;
+  box-shadow: inset 5em 1em rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  list-style-type: none;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+  justify-content: center;
+}
+footer ul {
+  list-style: none;
+}
+footer .enlaces {
+  padding: 3px;
+}
+footer .newsletter div {
+  width: auto;
+  padding: 3px;
+}
+footer .button-suscripcion {
+  background-color: #2e518b;
+  color: white;
+  border: solid #2e518b;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+footer .redes {
+  text-decoration: none;
+}
+footer .redes-ul {
+  padding: 3px;
+}
+footer .redes-ul li img {
+  width: 50px;
+  height: 50px;
+}
+
+#contenedorf {
+  display: inline-block;
+  min-width: 100px;
+}
+
+#textof {
+  background-color: red;
+  width: 100%;
+}
+
+.btn-group-vertical a {
+  text-decoration: none;
+}
+
+.volver-arriba {
+  height: 100px;
+  width: 100px;
+}
+
+.volver-arriba img {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.accede-socio div {
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-3 {
+  flex-wrap: wrap;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 80px;
+  margin-bottom: 10px;
+}
+
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+#body-trabajo {
+  background-color: #03494e;
+}
+
+.banner-product {
+  position: relative;
+  text-align: center;
+}
+
+.text-banner-product {
+  position: absolute;
+  font-size: 2em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-mb-3 {
+  max-height: 1000px;
+  max-width: 1000px;
+  color: antiquewhite;
+  border-radius: 15px;
+  padding: 0%;
+  font-family: "Itim", cursive;
+  margin: 10px;
+}
+
+#amnesia-cbd {
+  background-image: url(../../../../logo-geneticas/0003142-amnesia-CBD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#amnesia-kush {
+  background-image: url(../../../../logo-geneticas/0003118-amnesia-kush.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#big-kush {
+  background-image: url(../../../../logo-geneticas/0003122-big-kush.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Blueberry-Cookies {
+  background-image: url(../../../../logo-geneticas/Blueberry\ Cookies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#blue-widow {
+  background-image: url(../../../../logo-geneticas/002922-blue-widow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#bubba-kush-cbd {
+  background-image: url(../../../../logo-geneticas/0003150-bubba-kush-CBD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-body {
+  background-color: #7cd1a7;
+}
+
+#text-amnesiaCbd {
+  color: black;
+}
+
+#form-contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.boton-send-contacto p {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+/*# sourceMappingURL=style.css.map */
