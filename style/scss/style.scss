@@ -90,6 +90,9 @@ nav {
     z-index: 10;
     background-color: rgba(207, 206, 206, 0.87);
     overflow-x: hidden;
+    right: 4px;
+    margin: 5px;
+    
 
 }
 
@@ -118,7 +121,7 @@ nav {
 
 #carouselExampleCaptions {
 
-    font-family: 'Itim', cursive;
+    font-family: 'Raleway', sans-serif;
 
 
 
@@ -377,7 +380,7 @@ a.btn:first-of-type {
     align-items: center;
     background-color: #7cd1a7;
 
-    .logo-center img {}
+    
 
 }
 
@@ -481,12 +484,25 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     list-style-type: none;
     border-radius: 5px;
-    color: rgba(255, 255, 255, 0.658);
+    
     margin-top: 5px;
 }
 footer ul {
     list-style: none;
 }
+footer h4{
+    color: rgb(8, 8, 8);
+}
+@media (max-width:450px){
+    footer h4{
+       
+
+    }
+    
+
+}
+
+
 .newsletter div {
     width: auto;
     padding: 3px;
@@ -579,9 +595,7 @@ footer ul {
 
 
 }
-.cardi{
-    
-}
+
 
 /*productos*/
 .container-nuevo-ejemplo {
@@ -603,6 +617,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -736,3 +751,14 @@ footer ul {
     margin-bottom: 10px;
 }
 
+/*EJEMPLO -grid*/
+#grid-cont-background{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+  /*GOOGLE 345*/
+
+  
